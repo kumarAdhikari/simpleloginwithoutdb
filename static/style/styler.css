@@ -2,10 +2,15 @@
 
 
 body {
+    background-image: url("/static/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Roboto Serif', serif;
     max-width: max-content;
     margin: auto;
     }
+
 
 header {
     position: relative;
@@ -15,7 +20,9 @@ header {
     color: aqua;
     */
     }
-
+h1,h2,h3,h4{
+    color: red;
+}
 
 ul {
     text-align: center;
