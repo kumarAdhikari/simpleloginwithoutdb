@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Box</title>
+
+    <link rel="stylesheet" href="/static/style/styler.css">
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script type="text/javascript" src="/static/chatrunner.js"></script>
+</head>
+<body>
+<h1>Welcome to chat box room {{session['room']}} </h1>
+
+    <textarea id="chat" cols="70" rows="10" placeholder="No messages."></textarea><br><br>
+    <input type="text" id="text" size="60" placeholder="Enter Your Message"/>
+    <button type="button" id="send">Send</button><br><br>
+    <button type="button" onclick=leave_room()> Leave Chat </button>
+</body>
+</html>
