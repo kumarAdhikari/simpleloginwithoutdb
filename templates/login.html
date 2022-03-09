@@ -7,9 +7,10 @@
 </head>
 <body>
     <h1>Welcome to Random Website. Please Login to Continue</h1><br>
-    <form action="/loginpost" method="post">
-        <input type="text" name="username" placeholder="Select your username"><br><br>
-        <input type="password" name="password" placeholder="Select secure Password"><br><br>
+    <form action="/chat" method="post">
+        <input type="text" name="username" placeholder="Select your username" required autofocus><br><br>
+        <input type="password" name="password" placeholder="Select secure Password" required><br><br>
+        <input type="text" id="room" name="room" class="form-control" placeholder="Room Name" required><br><br>
         <input type="submit" value="Submit">
     </form>
 </body>
