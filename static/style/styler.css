@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap');
+
+
+body {
+    font-family: 'Roboto Serif', serif;
+    max-width: max-content;
+    margin: auto;
+    }
+
+header {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    /*
+    color: aqua;
+    */
+    }
+
+
+ul {
+    text-align: center;
+    font-size: x-small;
+    color: blue;
+    list-style-type: none;
+}
+
+
+.topnav_right {
+    float: right;
+}
+
+.main_box {
+    text-align: center;
+    width: 250px;
+    height: 500px;
+    border-radius: 25px;
+    border: 1px lightblue;
+    background-color: #D3D3D3;
+    padding: 50px;
+    margin: 20px;
+    position: relative;
+}
+.bottom_disc {
+    position: absolute;
+    bottom: 0;
+    right:25%;
+    left:50%;
+    margin-left:-150px
+}
+
+.login p {
+    padding: 12px;
+    }
+
+input[type="email"], input[type="password"] {
+    min-width: 200px;
+}
+input[type="submit"] {
+    min-width: 80px;
+}
+
+
+.login input {
+
+    box-sizing: border-box;
+    display: block;
+    width: 30px;
+    border-width: 100%;
+    border-style: solid;
+    padding: 15px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+
+
+.login input[type="email"],
+.login input[type="password"] {
+
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+    width: 200px;
+}
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+    border-color: #888;
+}
+
+.login input[type="submit"] {
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+    background: #17c;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+    border-color: #05a;
+}
+
+.sign_up_btn:link {
+    text-decoration: none;
+}
+
+.sign_up_btn:hover {
+    color: red;
+}
